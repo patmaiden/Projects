@@ -1,5 +1,5 @@
 /*
-fibonaccii.js - prints fibonacci sequence to specified number n or to the nth number (whichever comes first).
+fibonacci.js - prints fibonacci sequence to specified number n or to the nth number (whichever comes first).
 */
 
 //handle bad input

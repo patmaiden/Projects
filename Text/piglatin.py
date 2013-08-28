@@ -6,17 +6,3 @@ transposed to the end of the word and an ay is affixed
 (Ex.: "banana" would yield anana-bay). Read Wikipedia
 for more information on rules.
 """
-
-word = raw_input('What\'s your word? ').lower()
-vowels = 'aeiou'
-
-pig = 'ay'
-
-first = word[0]
-
-if first in vowels:
-    new = word + pig
-else:
-    new = word[1:] + first + pig
-
-print new
